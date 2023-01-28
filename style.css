@@ -1,0 +1,173 @@
+body{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 108%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+.center-container{
+    position: absolute;
+    top: 18vh;
+    left: 60vh;
+    width: 480px;
+    height: 550px;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0px 3px 6px #E0E0E014;
+    border: 1px solid #D9D8D8;
+    border-radius: 8px;
+}
+.amount-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px
+}
+.logo {
+    /*background: transparent url('img/1blkpasu.png') 0% 0% no-repeat padding-box;*/
+    /*opacity: 1;*/
+}
+.amount-to-pay p{
+    font: normal normal normal 12px/18px Poppins;
+    letter-spacing: 0.6px;
+    color: #232323;
+    text-transform: uppercase;
+    opacity: 0.4;
+    margin-bottom: 0;
+}
+.currency{
+    position: relative;
+    top: 12px;
+    bottom: 2px;
+    left: -15px;
+    font: normal normal normal 12px/18px Poppins;
+    letter-spacing: 0px;
+    color: #232323;
+    opacity: 1;
+}
+.flex{
+    display: flex;
+}
+
+
+.total-amount{
+    text-align: center;
+    font: normal normal 600 24px/35px Poppins;
+    letter-spacing: 0px;
+    color: #232323;
+    opacity: 1;
+}
+
+.text p{
+    text-align: center;
+    font: normal normal normal 16px/25px Poppins;
+    letter-spacing: 0.2px;
+    color: #000000;
+    opacity: 1;
+    word-spacing: 4px;
+}
+.payment-methods ul{
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 0;
+}
+.payment-methods li{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D9D8D8;
+    border-radius: 20px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 12px/18px Poppins;
+    color: grey;
+    padding: 8px;
+}
+.payment-methods .all {
+    background-color: #232323;
+    color: white ;
+}
+
+.text-box{
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.text-box p{
+    text-align: left;
+    font: normal normal normal 12px/18px Poppins;
+    letter-spacing: 0px;
+    color: #232323;
+    opacity: 0.6;
+    padding: 15px;
+}
+.payment-container{
+    display: flex;
+    align-items: center;
+    margin-left: 24.63px;
+    margin-right: 24.5px;
+    padding-bottom: 16px;
+}
+.payment-image{
+    width: 16px;
+    height: 16px;
+    margin-right: 24.1px;
+}
+.payment-text{
+    width: 125px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #232323;
+    opacity: 1;
+    margin-right: 113px;
+}
+.payment-methods{
+    text-align: right;
+    font: normal normal normal 10px/16px Poppins;
+    letter-spacing: 0px;
+    color: #232323;
+    opacity: 0.6;
+    padding-right: 16.5px;
+}
+.payment-arrow{
+    width: 8px;
+    height: 16px;
+}
+
+hr{
+    border: 1px solid #D9D8D8;
+    opacity: 1;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 18px;
+}
+.fluidcoins-text{
+    margin-right: 141px;
+    width: 132px;
+    height: 20px;
+}
+
+.flutterwave-text{
+    width: 143px;
+    height: 20px;
+    margin-right: 47px;
+}
+.flutterwave-image{
+    width: 24;
+}
+
+.flutterwave-text{
+    width: 143px;
+}
+.abeg-text{
+    margin-right: 232px;
+}
